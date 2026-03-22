@@ -1,0 +1,97 @@
+#root {}
+
+.grid-Container {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr;
+    height: 99vh;
+    align-items: center;
+}
+
+.sesionesTxt {
+    font-size: 40px;
+}
+
+.container-timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1%;
+}
+
+.btn-section input {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    border: none;
+    font-size: 40px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-section button {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-sesiones {
+    background-color: rgba(130, 138, 138, 0.321);
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.btn-sesiones:hover {
+    background-color: rgb(11, 179, 179);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: rgb(224, 108, 85);
+
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.btn-reset:hover {
+    background-color: rgb(243, 41, 0);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-start {
+    background-color: rgb(20, 118, 58);
+
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.btn-start:hover {
+    background-color: rgb(2, 177, 69);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.timer-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
