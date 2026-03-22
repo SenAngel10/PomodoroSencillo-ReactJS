@@ -11,8 +11,3 @@ Temporizador pomodoro construido con React.
 ## Tecnologías
 - React
 - useState, useEffect, useRef
-
-## Próximas mejoras
-- Notificaciones al cambiar de modo
-- Sonido al terminar
-- Guardar sesiones
