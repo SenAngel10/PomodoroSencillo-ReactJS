@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import Tasks from "../components/Tasks";
 import TimerPomodoro from "../components/TimerPomodoro";
 import './App.css';
 
